@@ -1,0 +1,83 @@
+.first-element {
+    margin-top: 100px;
+}
+
+h3 {
+    height: fit-content;
+    color: rgb(43, 38, 38);
+    height: 200px;
+}
+
+ol {
+    color: rgb(101, 71, 129);
+}
+
+.horizental-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: rgb(111, 94, 126);
+}
+
+.text-container {
+    display: inline;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+li {
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+body {
+    background-color: rgb(207, 179, 151);
+    background-size: contain;
+    width: 100%;
+}
+
+.horizental-list {
+    display: grid;
+    padding: 0;
+    list-style: decimal;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+p {
+    font-size: x-small;
+    font-family: sans-serif;
+    white-space: pre;
+    color: black;
+}
+
+footer {
+    font-size: small;
+    text-align: center;
+    color: black;
+}
+
+img:hover {
+    background-color: rgb(120, 120, 141);
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+marquee {
+    color: rgb(59, 55, 62);
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
